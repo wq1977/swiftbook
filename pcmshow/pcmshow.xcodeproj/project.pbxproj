@@ -13,6 +13,9 @@
 		20A015431A22C437002B8168 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A015421A22C437002B8168 /* Images.xcassets */; };
 		20A015461A22C437002B8168 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A015441A22C437002B8168 /* LaunchScreen.xib */; };
 		20A015521A22C437002B8168 /* pcmshowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A015511A22C437002B8168 /* pcmshowTests.swift */; };
+		2E04DEB81A234C3F00C5F691 /* ViewFourier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E04DEB71A234C3F00C5F691 /* ViewFourier.swift */; };
+		2E04DEBA1A234C5900C5F691 /* ModelPCMFourier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E04DEB91A234C5900C5F691 /* ModelPCMFourier.swift */; };
+		2E04DEBC1A234D5A00C5F691 /* ViewFourierDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E04DEBB1A234D5A00C5F691 /* ViewFourierDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		20A0154B1A22C437002B8168 /* pcmshowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pcmshowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A015501A22C437002B8168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20A015511A22C437002B8168 /* pcmshowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pcmshowTests.swift; sourceTree = "<group>"; };
+		2E04DEB71A234C3F00C5F691 /* ViewFourier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewFourier.swift; sourceTree = "<group>"; };
+		2E04DEB91A234C5900C5F691 /* ModelPCMFourier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelPCMFourier.swift; sourceTree = "<group>"; };
+		2E04DEBB1A234D5A00C5F691 /* ViewFourierDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewFourierDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				20A015421A22C437002B8168 /* Images.xcassets */,
 				20A015441A22C437002B8168 /* LaunchScreen.xib */,
 				20A015391A22C437002B8168 /* Supporting Files */,
+				2E04DEB71A234C3F00C5F691 /* ViewFourier.swift */,
+				2E04DEB91A234C5900C5F691 /* ModelPCMFourier.swift */,
+				2E04DEBB1A234D5A00C5F691 /* ViewFourierDataSource.swift */,
 			);
 			path = pcmshow;
 			sourceTree = "<group>";
@@ -212,7 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E04DEB81A234C3F00C5F691 /* ViewFourier.swift in Sources */,
+				2E04DEBA1A234C5900C5F691 /* ModelPCMFourier.swift in Sources */,
 				20A0153E1A22C437002B8168 /* ViewController.swift in Sources */,
+				2E04DEBC1A234D5A00C5F691 /* ViewFourierDataSource.swift in Sources */,
 				20A0153C1A22C437002B8168 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +423,7 @@
 				20A015571A22C437002B8168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20A015581A22C437002B8168 /* Build configuration list for PBXNativeTarget "pcmshowTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +432,7 @@
 				20A0155A1A22C437002B8168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
