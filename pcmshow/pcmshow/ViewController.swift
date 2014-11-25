@@ -37,9 +37,7 @@ class ViewController: UIViewController,ViewFourierDataSource {
     }
     
     func 收到人声检测通知(notification:NSNotification){
-        dispatch_async(dispatch_get_main_queue(), {
-            self.傅立叶视图.setNeedsDisplay()
-        })
+        self.傅立叶视图.setNeedsDisplay()
     }
 
     @IBAction func 按钮点击(sender: UIButton) {
