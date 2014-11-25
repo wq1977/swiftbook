@@ -29,7 +29,8 @@ class ViewController: UIViewController,ViewFourierDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.傅立叶视图.dataSource = self
-        NSNotificationCenter.defaultCenter().addObserver(self, selector:"收到人声检测通知:", name: 录音数据模型.通知名称, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector:"收到人声检测通知:", 
+		name: 录音数据模型.通知名称, object: nil)
     }
     
     func 傅立叶数据提供(视图: ViewFourier) -> [Float]? {
